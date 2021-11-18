@@ -1,0 +1,21 @@
+{
+  "name": "leaftel-node",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+      "start": "node src/app.js",
+      "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
